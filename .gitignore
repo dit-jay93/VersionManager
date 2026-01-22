@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+*.egg-info/
+dist/
+build/
+
+# Database
+*.db
+data/*.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Swift/Xcode
+*.xcuserstate
+xcuserdata/
+DerivedData/
+.build/
+.swiftpm/
+Packages/
+
+# Version backups (local data)
+data/versions/
+data/pinned/
+
+# Logs
+*.log
