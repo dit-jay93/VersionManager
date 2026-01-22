@@ -16,6 +16,11 @@
 		007 /* FileListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 107; };
 		008 /* InspectorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 108; };
 		009 /* Sheets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 109; };
+		010 /* DataModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111; };
+		011 /* LocalAppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112; };
+		012 /* FileService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113; };
+		013 /* LocalContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 114; };
+		014 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 115; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +35,11 @@
 		108 /* InspectorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InspectorView.swift; sourceTree = "<group>"; };
 		109 /* Sheets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sheets.swift; sourceTree = "<group>"; };
 		110 /* VersionManager.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = VersionManager.entitlements; sourceTree = "<group>"; };
+		111 /* DataModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModels.swift; sourceTree = "<group>"; };
+		112 /* LocalAppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalAppState.swift; sourceTree = "<group>"; };
+		113 /* FileService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileService.swift; sourceTree = "<group>"; };
+		114 /* LocalContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalContentView.swift; sourceTree = "<group>"; };
+		115 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +68,7 @@
 				303 /* Models */,
 				304 /* Services */,
 				305 /* Views */,
+				115 /* Assets.xcassets */,
 				110 /* VersionManager.entitlements */,
 			);
 			path = VersionManager;
@@ -75,6 +86,7 @@
 			isa = PBXGroup;
 			children = (
 				103 /* Models.swift */,
+				111 /* DataModels.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -84,6 +96,8 @@
 			children = (
 				104 /* APIService.swift */,
 				105 /* AppState.swift */,
+				112 /* LocalAppState.swift */,
+				113 /* FileService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -96,6 +110,7 @@
 				107 /* FileListView.swift */,
 				108 /* InspectorView.swift */,
 				109 /* Sheets.swift */,
+				114 /* LocalContentView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -158,6 +173,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				014 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -177,6 +193,10 @@
 				007 /* FileListView.swift in Sources */,
 				008 /* InspectorView.swift in Sources */,
 				009 /* Sheets.swift in Sources */,
+				010 /* DataModels.swift in Sources */,
+				011 /* LocalAppState.swift in Sources */,
+				012 /* FileService.swift in Sources */,
+				013 /* LocalContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
